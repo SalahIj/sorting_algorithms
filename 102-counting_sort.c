@@ -1,11 +1,11 @@
 #include "sort.h"
 
 /**
-* arra - the function name
-* @tab: the first input
-* @size: the second input
-* Return: the result
-*/
+ * arra - the function name
+ * @tab: the first input
+ * @size: the second input
+ * Return: the result
+ */
 int *arra(int *tab, size_t size)
 {
 size_t max, i, j;
@@ -39,10 +39,10 @@ return (arr);
 }
 
 /**
-* counting_sort - the function name
-* @array: the first input
-* @size: the second input
-*/
+ * counting_sort - the function name
+ * @array: the first input
+ * @size: the second input
+ */
 void counting_sort(int *array, size_t size)
 {
 size_t i;
